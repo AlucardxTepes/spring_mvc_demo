@@ -30,16 +30,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alucard/model/Student.java">
+      <file leaf-file-name="student-form.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +72,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alucard/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alucard/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main-menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/alucard/model/Student.java" />
       </list>
     </option>
@@ -852,12 +848,12 @@
       <updated>1491748094353</updated>
       <workItem from="1491748099832" duration="1778000" />
       <workItem from="1491749986529" duration="3371000" />
-      <workItem from="1491767095782" duration="3490000" />
+      <workItem from="1491767095782" duration="4744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8639000" />
+    <option name="totallyTimeSpent" value="9893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,9 +888,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32841823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28222656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1151,40 +1147,50 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-confirmation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <marker date="1491770004931" expanded="true" signature="4:146" ph="..." />
-            <marker date="1491770004931" expanded="true" signature="222:422" ph="..." />
-            <marker date="1491770004931" expanded="true" signature="229:274" ph="..." />
-            <marker date="1491770004931" expanded="true" signature="281:414" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <marker date="1491770496711" expanded="true" signature="4:146" ph="..." />
-            <marker date="1491770496711" expanded="true" signature="297:756" ph="..." />
-            <marker date="1491770496711" expanded="true" signature="304:357" ph="..." />
-            <marker date="1491770496711" expanded="true" signature="364:748" ph="..." />
-            <marker date="1491770496711" expanded="true" signature="423:737" ph="..." />
-            <marker date="1491770496711" expanded="true" signature="589:666" ph="..." />
+            <marker date="1491772560721" expanded="true" signature="4:146" ph="..." />
+            <marker date="1491772560721" expanded="true" signature="222:466" ph="..." />
+            <marker date="1491772560721" expanded="true" signature="229:274" ph="..." />
+            <marker date="1491772560721" expanded="true" signature="281:458" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alucard/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="541">
+          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
+            <marker date="1491772703400" expanded="true" signature="35:81" ph="..." />
+            <marker date="1491772703400" expanded="true" signature="83:125" ph="/**...*/" />
+            <marker date="1491772703400" expanded="true" signature="331:677" ph="{...}" />
+            <marker date="1491772703400" expanded="false" signature="711:718" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="736:740" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="788:795" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="823:827" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="860:867" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="884:888" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="934:941" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="967:971" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="1015:1022" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="1041:1045" ph=" }" />
+            <marker date="1491772703400" expanded="true" signature="1078:1182" ph="{...}" />
+            <marker date="1491772703400" expanded="false" signature="1234:1241" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="1264:1268" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="1310:1317" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="1334:1338" ph=" }" />
+            <marker date="1491772703400" expanded="false" signature="1369:1376" ph=" { " />
+            <marker date="1491772703400" expanded="false" signature="1391:1395" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

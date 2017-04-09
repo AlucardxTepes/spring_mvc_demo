@@ -11,6 +11,7 @@ public class Student {
   private String mFirstName;
   private String mLastName;
   private String mCountry;
+  private String mGender;
   private Map<String, String> mCountryOptions;
   
   public Student() {
@@ -44,10 +45,19 @@ public class Student {
   }
   
   public String getCountry() {
-    return mCountry;
+    // return Country name from Map using country as key
+    return mCountryOptions.get(mCountry);
   }
   
   public Map<String, String> getCountryOptions() {
     return mCountryOptions;
+  }
+  
+  public void setGender(String gender) {
+    mGender = gender;
+  }
+  
+  public String getGender() {
+    return mGender;
   }
 }
