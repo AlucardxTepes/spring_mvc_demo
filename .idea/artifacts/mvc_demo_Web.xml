@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvc_demo:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/mvc_demo_Web</output-path>
+    <root id="archive" name="mvc_demo_Web.war">
+      <element id="artifact" artifact-name="mvc_demo:Web exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mvc_demo/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
