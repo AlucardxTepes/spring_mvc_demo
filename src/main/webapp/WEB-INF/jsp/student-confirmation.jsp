@@ -13,5 +13,8 @@
 <body>
 <h2>Student confirmed:</h2>
 <h3>${student.firstName} ${student.lastName}</h3>
+<h2>Country:</h2>
+<h3>${student.country}</h3>
+
 </body>
 </html>
